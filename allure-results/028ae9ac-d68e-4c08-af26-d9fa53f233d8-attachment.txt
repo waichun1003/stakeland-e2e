@@ -1,0 +1,9 @@
+{"level":"info","message":"https://www.stakeland.com/ Website Visited","timestamp":"2024-09-28T16:20:13.589Z"}
+{"level":"info","message":"Clicked Skip Button","timestamp":"2024-09-28T16:20:14.676Z"}
+{"level":"info","message":"Clicked Dialog Close Button","timestamp":"2024-09-28T16:20:15.847Z"}
+{"level":"info","message":"stake Amount Input Locator visible","timestamp":"2024-09-28T16:20:18.878Z"}
+{"level":"info","message":"multiplier visible","timestamp":"2024-09-28T16:20:18.888Z"}
+{"level":"info","message":"stake Amount Input visible","timestamp":"2024-09-28T16:20:18.894Z"}
+{"level":"info","message":"initial Wasted visible","timestamp":"2024-09-28T16:20:18.908Z"}
+{"level":"info","message":"current Stakes Value visible","timestamp":"2024-09-28T16:20:18.952Z"}
+{"level":"info","message":"current STEAKS / WEEK Value visible","timestamp":"2024-09-28T16:20:18.995Z"}

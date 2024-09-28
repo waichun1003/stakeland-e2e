@@ -1,0 +1,19 @@
+{
+  "name": "stakeland-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.3",
+    "allure-playwright": "^3.0.3",
+    "playwright-bdd": "^7.4.2"
+  },
+  "dependencies": {
+    "winston": "^3.14.2"
+  }
+}

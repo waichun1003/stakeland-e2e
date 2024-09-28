@@ -31,7 +31,8 @@ npm install
 ```
 
 ## Workflow Diagram
-![Workflow Diagram](workflow.png)
+
+![img.png](workflow.png)
 
 ## Project Structure
 The project is organized into the following main directories:
@@ -74,7 +75,7 @@ You can execute the Playwright tests using the following NPM scripts defined in 
 ### Run All Tests
 bash
 ````
-npx bddgen && npx playwright test
+npm run test
 ````
 
 ### Run Tests in Headed Mode
@@ -82,27 +83,31 @@ To run tests with the browser UI, use the following command:
 
 bash
 ````
-npx bddgen && npx playwright test --headed
+npm run testUI
 ````
 
-### Generate and View Report
-After running the tests, Generate Allure Results:
+### Generate and View Report (Optional)
+- After running the tests, Allure Report will Automatically launch in browser
 
+### Manual Steps to generate report
 bash
 ````
-npx allure generate ./allure-results -o ./allure-report
+npx allure generate allure-results --clean -o allure-report
 ````
 
 and to Generate Allure Report:
 
 bash
 ````
-npx allure generate allure-results --clean -o allure-report
+npx mkdir -p allure-results/history && cp -r allure-report/history/* allure-results/history/ || true
 ````
 
 To View Allure Report:
 
-`/allure-report/index.html`
+bash
+```
+allure serve
+```
 
 ### Configuration
 #### Playwright Configuration

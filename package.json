@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx bddgen && npx playwright test && npm run generateReport && npm run generateResult && npm run openReport",
+    "testUI": "npx bddgen && npx playwright test --headed && npm run generateReport && npm run generateResult && npm run openReport",
+    "generateReport": "allure generate allure-results --clean -o allure-report",
+    "generateResult": "mkdir -p allure-results/history && cp -r allure-report/history/* allure-results/history/ || true",
+    "openReport": "allure serve"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

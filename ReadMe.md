@@ -31,8 +31,7 @@ npm install
 ```
 
 ## Workflow Diagram
-
-![img.png](img.png)
+![Workflow Diagram](workflow.png)
 
 ## Project Structure
 The project is organized into the following main directories:

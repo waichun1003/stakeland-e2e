@@ -13,7 +13,7 @@ Clone this repository:
 
 bash
 ```
-git clone https://github.com/your-repo/stakeland-playwright.git
+git clone https://github.com/waichun1003/stakeland-playwright.git
 ```
 
 Navigate to the project directory:
